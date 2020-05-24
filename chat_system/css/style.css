@@ -1,0 +1,48 @@
+
+@font-face{
+    font-family: 'GeosansLight';
+    src:url(font/GeosansLight.ttf);
+}
+h1{
+    font-family: GeosansLight;
+}
+.error{
+    color:rgb(245, 79, 79);
+}
+#text1{
+    right:40%;
+    width: 25%; /*親要素いっぱい広げる*/
+    padding: 10px 15px; /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 20px; /*ボックス角の丸み*/
+    border: 2px solid #ddd; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+#text1:focus {
+    box-shadow: 0 0 5px 0 rgb(128, 181, 241);
+    border: 2px solid #FFF !important;
+    outline: 0;
+}
+body{
+    text-align: center;
+}
+#content{
+    widows: 200px;
+    margin-right: auto;
+}
+.button {
+	/* display: block; */
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	border: 2px solid rgb(128, 181, 241);
+	border-radius: 20px;
+    transition: .4s;
+    background-color: #ffffff;
+}
+.button:hover {
+	background: rgb(128, 181, 241);
+	color: #ffffff;
+}
