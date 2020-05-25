@@ -2,4 +2,4 @@
 
 ログインした人の中から1対1でチャットできるシステムです。
 
-php,mysql,apache
+使用したもの:php,mysql,apache
